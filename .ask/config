@@ -1,28 +1,28 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.84ed46d4-01a5-40ad-b8fe-87c048cf7952",
+      "skill_id": "",
       "resources": {
         "lambda": [
           {
             "alexaUsage": [
               "custom/default"
             ],
-            "arn": "arn:aws:lambda:us-east-1:925073549350:function:ask-custom-20tabblog-default",
+            "arn": "",
             "awsRegion": "us-east-1",
             "codeUri": "lambda/py/lambda_upload",
             "functionName": "ask-custom-20tabblog-default",
             "handler": "blog.handler",
-            "revisionId": "40c6ca67-53d0-477f-b5f6-acc804e05a58",
+            "revisionId": "",
             "runtime": "python3.6"
           }
         ],
         "manifest": {
-          "eTag": "13df4000c728b487db3e2ce1ae77f874"
+          "eTag": ""
         },
         "interactionModel": {
           "it-IT": {
-            "eTag": "ad231c3ec94af8067cdba8b7aed0309c"
+            "eTag": ""
           }
         }
       },
