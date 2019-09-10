@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa apri twentyab blog",
+            "dammi l'ultimo articolo"
+          ],
+          "name": "Twentytab blog",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/py/lambda_upload",
+          "uri": "ask-custom-20tabblog-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
